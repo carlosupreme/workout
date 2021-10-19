@@ -1,0 +1,37 @@
+:root {
+  --black: #000000; /*primary*/
+  --oxford-blue: #14213d;
+  --orange-web: #fca311; /*details*/
+  --platinum: #e5e5e5;
+  --white: #ffffff; /*text*/
+  --white-opacity: #bebebe;
+  --font: "Raleway", sans-serif;
+  --black-alpha: rgba(0, 0, 0, 0.3);
+}
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font);
+  min-height: 100vh;
+  position: relative;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 2rem;
+}
